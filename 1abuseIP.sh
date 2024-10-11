@@ -4,4 +4,4 @@
 
 /root/abuseIP/a2.sh
 /root/abuseIP/surgelist.sh
-#/root/abuseIP/gitpush.sh
+/root/abuseIP/gitpush.sh
