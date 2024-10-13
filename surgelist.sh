@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /root/abuseIP
+
 # 檢查是否存在 blacklist.txt 檔案
 if [ ! -f blacklist.txt ]; then
     echo "Error: 'blacklist.txt' 檔案不存在。"
