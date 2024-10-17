@@ -21,7 +21,7 @@ COMMIT_MESSAGE="Update badip.list on $(date +"%Y-%m-%d %H:%M:%S")"
 git commit -m "$COMMIT_MESSAGE"
 
 # 推送到遠端儲存庫
-git push origin main
+git push --force origin main
 
 # 結束訊息
 echo "成功更新並推送 $FILE_NAME 到遠端儲存庫。"
